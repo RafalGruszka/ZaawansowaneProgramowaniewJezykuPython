@@ -1,3 +1,7 @@
 --Tu powstanie konflikt (konflikt rozwiązany)
 (zmiana w brnachu test)
 (Zmiana w branchu test_2)
+
+Nowa Zmiana nr 1
+Nowa Zmiana Nr 2
+Nowa zmiana Nr 3
