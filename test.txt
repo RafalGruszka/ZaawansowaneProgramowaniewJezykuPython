@@ -1,1 +1,3 @@
---Tu powstanie konflikt (zmiana w brnachu test)
+--Tu powstanie konflikt (konflikt rozwiązany)
+(zmiana w brnachu test)
+(Zmiana w branchu test_2)
