@@ -18,7 +18,7 @@ l3 = 5
 
 
 print(f'Czy {l1} + {l2} >= {l3}?')
-print(sprawdz(l1,l2,l3))
+print(sprawdz(l1, l2, l3))
 
 l1 = 3
 l2 = 4
@@ -26,4 +26,4 @@ l3 = 5
 
 
 print(f'Czy {l1} + {l2} >= {l3}?')
-print(sprawdz(l1,l2,l3))
+print(sprawdz(l1, l2, l3))

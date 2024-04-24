@@ -10,6 +10,7 @@ ograniczyć pobierane browary do miasta, które zostało wskazane.
 import requests
 import json
 
+
 class Brewery:
     id: int
     name: str
@@ -28,7 +29,11 @@ class Brewery:
     state: str
     street: str
 
-    def __init__(self, id: int, name: str, brewery_type: str, address1: str, address2: str, address3: str, city: str, state_province: str, postal_code: str, country: str, longitude: float, latitude: float, phone: str, website_url: str, state: str, street: str):
+    def __init__(self, id: int, name: str, brewery_type: str, address1: str,
+                 address2: str, address3: str, city: str, state_province: str,
+                 postal_code: str, country: str, longitude: float,
+                 latitude: float, phone: str, website_url: str, state: str,
+                 street: str):
         self.id = id
         self.name = name
         self.brewery_type = brewery_type
@@ -45,8 +50,15 @@ class Brewery:
         self.website_url = website_url
         self.state = state
         self.street = street
+
     def __str__(self):
-        return f"Brewery: {self.name}, Type: {self.brewery_type}, Address: {self.address1}, {self.address2}, {self.address3}, {self.city}, {self.state_province}, {self.postal_code}, {self.country}, Longitude: {self.longitude}, Latitude: {self.latitude}, Phone: {self.phone}, Website: {self.website_url}, State: {self.state}, Street: {self.street}"
+        return (f"Brewery: {self.name}, Type: {self.brewery_type}, "
+                f"Address: {self.address1}, {self.address2}, {self.address3}, "
+                f"{self.city}, {self.state_province}, {self.postal_code}, "
+                f"{self.country}, Longitude: {self.longitude}, "
+                f"Latitude: {self.latitude}, Phone: {self.phone}, "
+                f"Website: {self.website_url}, State: {self.state}, "
+                f"Street: {self.street}")
 
 
 #  API endpoint

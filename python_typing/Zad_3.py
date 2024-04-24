@@ -6,6 +6,7 @@ zmiennej, a następnie wykorzystując warunek logiczny wyświetlić prawidłowy
 tekst "Liczba parzysta" / "Liczba nieparzysta"
 '''
 
+
 def sprawdz3parzysta(liczba: int) -> bool:
     reszta = liczba % 2
     if reszta == 0:
