@@ -13,11 +13,11 @@ def sprawdz(l1: list, l2: int) -> bool:
         return False
 
 
-l1 = [1,4,5,7,8]
+l1 = [1, 4, 5, 7, 8]
 l2 = 3
 
-print(sprawdz(l1,l2))
+print(sprawdz(l1, l2))
 
 l2 = 5
 
-print(sprawdz(l1,l2))
+print(sprawdz(l1, l2))

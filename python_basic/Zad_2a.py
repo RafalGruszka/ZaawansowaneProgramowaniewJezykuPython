@@ -6,12 +6,12 @@
 
 print("Zadanie 2a.")
 
-imiona = ["Jan", "Marek", "Rafał", "Zbyszek","Robert"]
+imiona = ["Jan", "Marek", "Rafał", "Zbyszek", "Robert"]
+
 
 def wyswietl_imiona(names):
     for imie in names:
         print(imie)
 
+
 wyswietl_imiona(imiona)
-
-

@@ -9,14 +9,15 @@ powstałą listę.
 def combinelists(l1: list[int], l2: list[int]):
     l3 = [x ** 3 for x in l1]
     for i in range(len(l2)):
-      if l2[i] not in l1:
-          l3.append(l2[i] ** 3)
+        if l2[i] not in l1:
+            l3.append(l2[i] ** 3)
     return l3
 
 
-l1 = [1,2,3,4,5]
-l2 = [4,5,6,7,8]
-# oczekiwany wynik to 8 elementów [1,8,27,64,125,216,343,512], dwa duplikaty usunięte
+l1 = [1, 2, 3, 4, 5]
+l2 = [4, 5, 6, 7, 8]
+# oczekiwany wynik to 8 elementów [1,8,27,64,125,216,343,512],
+# dwa duplikaty usunięte
 
 print('Lista 1')
 print(l1)

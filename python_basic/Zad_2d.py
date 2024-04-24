@@ -14,13 +14,13 @@ print("Zadanie 2d.")
 def codrugielement(listaLiczb):
     listaLiczbC2 = []
     for i in range(len(listaLiczb)):
-        if (i % 2 == 0):
+        if i % 2 == 0:
             continue
         listaLiczbC2.append(listaLiczb[i])
     return listaLiczbC2
 
 
-listaliczb = [0,1,2,3,4,5,6,7,8,9]
+listaliczb = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 print("Lista liczb:")
 print(listaliczb)
 
